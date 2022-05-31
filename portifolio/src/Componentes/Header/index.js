@@ -7,7 +7,7 @@ import './style.css';
 function Header(props) {
 
 
-    const [ show, setShow ] = useState(true);
+    const [ show, setShow ] = useState(false);
 
 
     function hideSidebar() {
@@ -27,7 +27,7 @@ function Header(props) {
             </div>
             <div className={ show ? 'menu-mobile' : 'menu-mobile hide'}>
                 <List links={props.links} styleNew='list-mobile' ></List>
-                <button onClick={hideSidebar} className=''>X</button>
+                <button onClick={hideSidebar} className='sair-mobile'>X</button>
             </div>
         </header>)
 }

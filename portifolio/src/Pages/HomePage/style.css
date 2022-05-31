@@ -26,7 +26,7 @@
     left: 15%;
     background-color: var(--azul_padrao);
     
-    width: 800px;
+    width:50%;
     height: 500px;
     border-radius: 130px;
     animation: topToBotton 15s ease infinite alternate forwards;
@@ -37,7 +37,6 @@
     
     margin:0px 0px 0px 100px;
     display: grid;
-    gap: 1%;
     align-items: center;
     grid-template-columns: 2fr 1fr 4fr;
 }
@@ -71,4 +70,21 @@
     to{
       transform: translatey(25%);
     }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .container{
+      margin: 20px;
+      grid-template-columns: 1fr;
+    }
+/* 
+    .background-box-2{
+      width:40% ;
+      width:35% ;
+    }
+    .background-box-1{
+      width:40% ;
+      width:35% ;
+    } */
   }
