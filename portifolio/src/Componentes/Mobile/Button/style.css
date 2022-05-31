@@ -1,0 +1,9 @@
+.wid-large-button{
+    font-size: 50px;
+}
+
+.btn-mobile{
+    background-color: transparent !important;
+    border: none;
+    color:var(--preto)
+}

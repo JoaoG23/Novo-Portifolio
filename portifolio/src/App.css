@@ -1,30 +1,21 @@
+
 :root {
   --azul_escuro:#3719df;
+  --azul-sombra:#3719df30;
   --azul_padrao:#5233FF;
+  --branco_claro:#f7f6fe;
   --branco_padrao:#efedfe;
   --verde_padrao:#19FF94;
   --vermelho_padrao:#F7614A;
   --amarelo_padrao:#F7DB19;
-  --preto:#33323b;
+  --preto:#424144;
+}
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+  color: var(--preto);
+}
+h1{
+  margin: 0px;
 }
 
-
-.header {
-  display: flex;
-  position: sticky;
-  justify-content: space-between;
-  align-items: center;
-  
-}
-
-.list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.azul{
-  background-color: var(--azul_padrao);
-  color: var(--branco_padrao);
-}

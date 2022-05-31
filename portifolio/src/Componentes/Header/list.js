@@ -1,6 +1,6 @@
 function List(props) { 
     const listLinks = props.links.map((link, index)  => <li key={index}>{link}</li>); // Coloque o funcao dentro de um variavel
-    return (<ul className='list'>
+    return (<ul className={props.styleNew} >
       {listLinks}
    </ul>)
 }
