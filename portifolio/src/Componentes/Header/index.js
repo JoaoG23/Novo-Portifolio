@@ -1,18 +1,33 @@
+import React , { useState }from 'react'
 import List from "./list"
+
 import ButtonMenuMobile from "../Mobile/Button";
 import './style.css';
 
 function Header(props) {
 
-    return(<header className='header'>
+
+    const [ show, setShow ] = useState(true);
+
+
+    function hideSidebar() {
+        setShow(false);
+    }
+ 
+    function showSidebar() {
+        setShow(true);
+    }
+ 
+    return(
+    <header className='header'>
         <img src='./Assets/icons/minilogo.svg'></img>
-            <ButtonMenuMobile></ButtonMenuMobile>
+            <button className='btn-mobile' onClick={showSidebar} >☰</button>
             <div>
                 <List links={props.links} styleNew='list' ></List>
             </div>
-            <div className='menu-mobile'>
+            <div className={ show ? 'menu-mobile' : 'menu-mobile hide'}>
                 <List links={props.links} styleNew='list-mobile' ></List>
-                <button className='sair-mobile'>X</button>
+                <button onClick={hideSidebar} className=''>X</button>
             </div>
         </header>)
 }

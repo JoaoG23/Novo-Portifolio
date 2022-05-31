@@ -1,9 +1,19 @@
-.wid-large-button{
-    font-size: 50px;
-}
 
 .btn-mobile{
+    font-size: 50px;
     background-color: transparent !important;
     border: none;
-    color:var(--preto)
+    display: none;
+    color:var(--preto);
 }
+
+
+@media only screen and (max-width: 600px) {
+    
+    
+    .btn-mobile{
+        display: flex;
+    }
+
+
+  }

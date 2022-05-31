@@ -1,7 +1,7 @@
 import './style.css'
 
 function ButtonMenuMobile() { 
-    return (<button className='wid-large-button btn-mobile'>
+    return (<button className='btn-mobile'>
         ☰
     </button>)
 }

@@ -1,4 +1,7 @@
 
+ul{
+  padding: 0;
+}
 .sobrear{
   
     box-shadow: 4px 4px 10px var(--azul-sombra);
@@ -24,23 +27,27 @@
     gap: 30px;
   }
 
+
 .list li:hover{
   animation: flooting 0.5s ease-in 0s alternate forwards;
 }
 
 .menu-mobile{
     position: fixed;
-    z-index:2;
-    display: none;
+    z-index:1;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     
     border: none;
     top: 0px;
     left: 0px;
+    padding: 0px;
+    margin: 0px;
     
     background-color: var(--branco_padrao);
     
     width: 100%;
-    height: 100%;
+    height:100%;
 
 }
 
@@ -49,7 +56,6 @@
   list-style: none;
   padding-bottom: 6%;
   font-size: 3rem;
-  gap: 20px;
 }
 .list-mobile li:hover{
  transition: 1s ease-out;
@@ -68,6 +74,18 @@
   border: none;
 }
 
+.hide{
+  display: none;
+}
+
+
+.btn-mobile{
+  font-size: 50px;
+  background-color: transparent !important;
+  border: none;
+  display: none;
+  color:var(--preto);
+}
 
  /* ----- ANIMATIONS ------ */
   @keyframes flooting {
@@ -90,10 +108,10 @@
       display: none;
   }
   
-  /* .menu-mobile{
- display: flex;
+  .btn-mobile{
+    display: flex;
+}
 
-} */
   
 
-  }
+  } 
