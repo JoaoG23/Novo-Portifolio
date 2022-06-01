@@ -18,18 +18,31 @@ ul{
     position: sticky;
     align-items: center;
     gap: 50px;
+    
 }
 
 .list {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-  }
+
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.list a{
+
+  list-style: none;
+  color:var(--preto);
+  text-decoration: none;
+}
+
+
 
 
 .list li:hover{
-  animation: flooting 0.5s ease-in 0s alternate forwards;
+  animation:  flooting-soft  0.3s ease-in 0s alternate forwards;
+}
+.list a:hover{
+  animation: flooting-soft  0.3s ease-in 0s alternate forwards;
 }
 
 .menu-mobile{
@@ -63,7 +76,7 @@ ul{
 }
 .list-mobile li:hover{
   
-  animation: flooting 0.3s ease-in 0s alternate forwards;
+  animation:  flooting-soft  0.3s ease-in 0s alternate forwards;
 }
 
 .sair-mobile{
@@ -80,7 +93,6 @@ ul{
   color: var(--branco_padrao);
 }
 .sair-mobile:hover{
-  
   animation: flooting 0.3s ease 0s alternate forwards;
 }
 
@@ -108,6 +120,17 @@ ul{
       color: var(--verde_padrao);
       border-bottom: 2px solid var(--verde_padrao);
       transform: translateY(-7px);
+    }
+  }
+  @keyframes flooting-soft {
+    from{
+      
+      transform: translateY(0px);
+    }
+    to{
+      color: var(--verde_padrao);
+      border-bottom: 2px solid var(--verde_padrao);
+      transform: translateY(-4px);
     }
   }
   @keyframes rightToLeft {

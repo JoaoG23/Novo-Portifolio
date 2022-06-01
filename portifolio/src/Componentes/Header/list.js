@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 
 
 function List(props) { 
-    const listLinks = props.links.map((link, index)  => <li key={index}><Link to={`/${link}`}>{link}</Link></li>); // Coloque o funcao dentro de um variavel
     return (<ul className={props.styleNew} >
-      {listLinks}
+     <li><Link to='/'>Home</Link></li>
+     <li><Link to='/sobre'>Sobre</Link></li>
+     <li><Link to='/projetos'>Projetos</Link></li>
+     <li><Link to='/habilidade'>Habilidades</Link></li>
+     <li><Link to='/contatos'>Contatos</Link></li>
    </ul>)
 }
 

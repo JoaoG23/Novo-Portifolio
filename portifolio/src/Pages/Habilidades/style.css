@@ -1,0 +1,29 @@
+.container-sobre{
+    height: 900px;
+    width: 90%;
+    margin-top:0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    gap:10px;
+  }
+
+  .img-perfil{
+    border-radius: 50px;
+    width: 300px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    
+    .container-sobre{
+      
+      margin-top:20%;
+      margin-right: auto;
+
+      align-items:end;
+      gap: 0px;
+      padding: auto;
+    }
+
+  }

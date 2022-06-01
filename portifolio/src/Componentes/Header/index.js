@@ -3,11 +3,8 @@ import List from "./list"
 
 import './style.css';
 
-function Header(props) {
-
-
+function Header() {
     const [ show, setShow ] = useState(false);
-
 
     function hideSidebar() {
         setShow(false);
@@ -18,16 +15,18 @@ function Header(props) {
     }
  
     return(
-    <header className='header'>
+    <header className='header' >
         <img src='./Assets/icons/minilogo.svg'></img>
             <button className='btn-mobile' onClick={showSidebar} >☰</button>
-            <List links={props.links} styleNew='list' ></List>
+            <List styleNew='list'></List>
             
             <div className={ show ? 'menu-mobile' : 'menu-mobile hide'}>
-                <List links={props.links} styleNew='list-mobile' ></List>
+                <List styleNew='list-mobile' ></List>
                 <button onClick={hideSidebar} className='sair-mobile'>X</button>
             </div>
-        </header>)
+        </header>
+
+        )
 }
 
 export default Header;

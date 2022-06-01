@@ -5,21 +5,21 @@ import Header from './Componentes/Header';
 import HomePage from './Pages/HomePage';
 import Sobre from './Pages/Sobre';
 import Projetos from './Pages/Projetos';
+import Habilidades from './Pages/Habilidades';
+import Contatos from './Pages/Contatos';
 
 function App() {
   return (
     <Router>
+          <Header></Header>
       <div>
-      <Routes>
-      <Route exact path='/' element={<HomePage />}></Route>
-      <Route  path='/Sobre' element={<Sobre />}></Route>
-      <Route  path='/Projetos' element={<Projetos />}></Route>
-
-        <Header links={["Pagina Inicial", "Sobre", "Projetos", "Habilidades", "Contatos"]}></Header>
-        {/* <HomePage></HomePage>
-    <Sobre></Sobre> */}
-        <Route path='*' element={<h2>Essa Rota não Existe</h2>}></Route>
-
+        <Routes>
+          <Route path='/' element={<HomePage />}></Route>
+          <Route path='/sobre' element={<Sobre />}></Route>
+          <Route path='/projetos' element={<Projetos />}></Route>
+          <Route path='/habilidade' element={<Projetos />}></Route>
+          <Route path='/contatos' element={<Projetos />}></Route>
+          <Route path='*' element={<h2>Essa Rota não Existe</h2>}></Route>
         </Routes>
       </div>
     </Router>
