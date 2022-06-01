@@ -2,7 +2,7 @@ import './style.css';
 
 function HomePage() {
     return(
-    <section className='container transitionsSoft'>
+    <section className='container-home transitionsSoft'>
         <article className='font-large'>
             <h1>Soluções voltadas para Web </h1>
             <h1>Como Landing Pages e Sites</h1>

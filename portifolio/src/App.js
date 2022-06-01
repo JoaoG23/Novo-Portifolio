@@ -11,17 +11,17 @@ import Contatos from './Pages/Contatos';
 function App() {
   return (
     <Router>
+      <main>
           <Header></Header>
-      <div>
         <Routes>
           <Route path='/' element={<HomePage />}></Route>
           <Route path='/sobre' element={<Sobre />}></Route>
           <Route path='/projetos' element={<Projetos />}></Route>
-          <Route path='/habilidade' element={<Projetos />}></Route>
-          <Route path='/contatos' element={<Projetos />}></Route>
-          <Route path='*' element={<h2>Essa Rota não Existe</h2>}></Route>
+          <Route path='/habilidade' element={<Habilidades />}></Route>
+          <Route path='/contatos' element={<Contatos />}></Route>
+          <Route path='*' element={<h2>Opá! Esta pagina não existe</h2>}></Route>
         </Routes>
-      </div>
+      </main>
     </Router>
 
   );

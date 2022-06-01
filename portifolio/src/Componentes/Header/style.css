@@ -9,8 +9,9 @@ ul{
   
 
 .header {
-    font-weight: bolder;
-    font-size: 19px;
+    z-index: 2;
+    font-weight:500;
+    font-size: 17px;
   
     padding:10px;
     height: 100px;
@@ -29,6 +30,7 @@ ul{
   gap: 30px;
 }
 .list a{
+
 
   list-style: none;
   color:var(--preto);
@@ -74,7 +76,22 @@ ul{
   padding-top: 10px;
   font-size: 1.6rem;
 }
+.list-mobile a{
+  z-index:1;
+  text-decoration: none;
+  color: var(--branco_padrao);
+  border-bottom: 2px solid var(--branco_padrao);
+  width: 100%;
+  list-style: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 1.6rem;
+}
 .list-mobile li:hover{
+  
+  animation:  flooting-soft  0.3s ease-in 0s alternate forwards;
+}
+.list-mobile a:hover{
   
   animation:  flooting-soft  0.3s ease-in 0s alternate forwards;
 }

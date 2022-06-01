@@ -9,6 +9,10 @@
     align-items:center;
   }
 
+  .container-project-main{
+    width: 80%;
+  }
+
   
   @media only screen and (max-width: 1000px) {
     

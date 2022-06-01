@@ -18,7 +18,6 @@ body{
 h1{
   margin: 0px;
 }
-
 .bg-red{
   background-color: var(--vermelho_padrao);
 }
@@ -26,9 +25,11 @@ h1{
   background-color: var(--amarelo_padrao);
 }
 .bg-green{
+  z-index: -1;
   background-color: var(--verde_padrao);
 }
 .bg-blue{
+  z-index: -1;
   background-color: var(--azul_padrao);
 }
 .bg-white{
@@ -37,6 +38,71 @@ h1{
 .transitionsSoft{
   animation: softchange 1s ease 0s alternate forwards;
 }
+
+.container{
+  gap: 20px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    align-items: center;
+}
+
+
+
+.background-box-1{
+  position: fixed;
+  z-index: -2;
+
+  border: none;
+  opacity: 0.2;
+
+  bottom: 190px;
+  left: 40%;
+  /* background-color: var(--verde_padrao); */
+  
+  width: 70%;
+  height: 925px;
+  border-radius: 170px;
+  animation: topToBotton 20s ease-in infinite alternate forwards;
+}
+.background-box-2{
+  position: fixed;
+  z-index: -2;
+  
+  border: none;
+  opacity: 0.2;
+  
+  bottom:10%;
+  left: 15%;
+  /* background-color: var(--azul_padrao); */
+  
+  width:50%;
+  height: 500px;
+  border-radius: 130px;
+  animation: topToBotton 15s ease infinite alternate forwards;
+}
+.background-box-3{
+  position: fixed;
+  z-index: -2;
+  
+  border: none;
+  opacity: 0.2;
+  
+  bottom:30%;
+  left: 4%;
+  
+  width:30%;
+  height: 300px;
+  border-radius: 90px;
+  animation: topToBotton 4s ease infinite alternate forwards;
+}
+
+
+
+
+
+
 
 @keyframes softchange {
   from{
