@@ -1,15 +1,29 @@
+.container-sobre{
+    height: 900px;
+    width: 90%;
+    margin-top:0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    gap:10px;
+  }
 
-.background-box-1{
-    position: fixed;
-    z-index: -1;
+  .img-perfil{
+    border-radius: 50px;
+    width: 300px;
+  }
   
-    border: none;
-    opacity: 0.2;
-
-    bottom: 190px;
-    left: 40%;
+  @media only screen and (max-width: 700px) {
     
-    width: 1432px;
-    height: 925px;
-    border-radius: 200px;
-}
+    .container-sobre{
+      
+      margin-top:20%;
+      margin-right: auto;
+
+      align-items:end;
+      gap: 0px;
+      padding: auto;
+    }
+
+  }

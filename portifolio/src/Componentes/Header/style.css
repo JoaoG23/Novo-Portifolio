@@ -53,6 +53,7 @@ ul{
 }
 
 .list-mobile li{
+  z-index:1;
   border-bottom: 2px solid var(--branco_padrao);
   width: 100%;
   list-style: none;

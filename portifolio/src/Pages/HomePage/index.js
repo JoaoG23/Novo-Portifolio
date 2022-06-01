@@ -8,12 +8,10 @@ function HomePage() {
             <h1>Como Landing Pages e Sites</h1>
         </article>
         <div>
-            <div className='background-box-1'></div>
-            <div className='background-box-2'></div>
+            <div className='background-box-1 bg-blue'></div>
+            <div className='background-box-2 bg-green'></div>
         </div>
-        <aside>
             <img className='img' src='./Assets/icons/laptopHome.svg'></img>
-        </aside>
     </section>)
 }
 

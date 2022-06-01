@@ -19,3 +19,18 @@ h1{
   margin: 0px;
 }
 
+.bg-red{
+  background-color: var(--vermelho_padrao);
+}
+.bg-yellow{
+  background-color: var(--amarelo_padrao);
+}
+.bg-green{
+  background-color: var(--verde_padrao);
+}
+.bg-blue{
+  background-color: var(--azul_padrao);
+}
+.bg-white{
+  background-color: var(--branco_padrao);
+}

@@ -1,7 +1,6 @@
-import React , { useState }from 'react'
+import React , { useState } from 'react'
 import List from "./list"
 
-import ButtonMenuMobile from "../Mobile/Button";
 import './style.css';
 
 function Header(props) {
@@ -22,9 +21,8 @@ function Header(props) {
     <header className='header'>
         <img src='./Assets/icons/minilogo.svg'></img>
             <button className='btn-mobile' onClick={showSidebar} >☰</button>
-            <div>
-                <List links={props.links} styleNew='list' ></List>
-            </div>
+            <List links={props.links} styleNew='list' ></List>
+            
             <div className={ show ? 'menu-mobile' : 'menu-mobile hide'}>
                 <List links={props.links} styleNew='list-mobile' ></List>
                 <button onClick={hideSidebar} className='sair-mobile'>X</button>
