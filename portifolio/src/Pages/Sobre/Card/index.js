@@ -8,10 +8,9 @@ function CardSobre( props ) {
             <span className='bol-amarela'></span>
             <BagdeVerde></BagdeVerde>
         </div>
-        <div>
             <h1> { props.title } </h1>
-            <p> { props.content } <a className='btn-azul'  href='#projetos'>Clique aqui</a></p>
-        </div>
+            <p> { props.content }</p>
+             <a className='btn-azul'  href='./projetos'>Clique aqui</a>
     </div>)
 }
 

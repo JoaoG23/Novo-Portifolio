@@ -93,7 +93,7 @@ h1{
   width:40%;
   height: 300px;
   border-radius: 90px;
-  animation: topToBotton 4s ease infinite alternate forwards;
+  animation: topToBotton 7s ease infinite alternate forwards;
 }
 
 .background-box-4{
@@ -109,7 +109,7 @@ h1{
   width:25%;
   height: 20%;
   border-radius: 50px;
-  animation: topToBotton 6s ease infinite alternate forwards;
+  animation: topToBotton 10s ease infinite alternate forwards;
 }
 
 
@@ -128,6 +128,26 @@ h1{
 }
 
 
+@keyframes floating{
+    
+  from{
+    transform: translateY(0%);
+  }
+  to{
+    transform: translateY(3%);
+  }
+}
+
+@keyframes topToBotton{
+ 
+  from{
+    transform: translatey(-15%);
+  }
+  to{
+    transform: translatey(35%);
+  }
+}
+
 
 
 
@@ -141,4 +161,18 @@ h1{
     opacity: 1;
     transform: translateX(0vw);
   }
+}
+
+@media only screen and (max-width: 800px) {
+
+
+  
+  .background-box-1{
+    border-radius: 10px;
+  }
+  .background-box-2{
+    
+    border-radius: 10px;
+  }
+
 }

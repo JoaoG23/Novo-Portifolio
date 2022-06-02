@@ -66,37 +66,17 @@
   background-color: var(--branco_claro);
 }
 
-  @keyframes floating{
-    
-    from{
-      transform: translateY(0%);
-    }
-    to{
-      transform: translateY(3%);
-    }
-  }
 
-@keyframes topToBotton{
-   
-    from{
-      transform: translatey(-15%);
-    }
-    to{
-      transform: translatey(25%);
-    }
-  }
 
   @media only screen and (max-width: 700px) {
-.bagde-verde{
-  width: 40%;
-  height: 20px;
-}
-    .card{
-      width: 230px;
+
+    .card-sobre{
+      width: 330px;
       padding: 20px;
     }
     .img-perfil{
       width: 200px;
+      border-radius: 30px;
     }
 /* 
     .background-box-2{

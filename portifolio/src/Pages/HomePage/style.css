@@ -18,31 +18,14 @@
     animation: floating 1s ease-out infinite alternate forwards;
     
   }
-  
-  @keyframes floating{
-    
-    from{
-      transform: translateY(0%);
-    }
-    to{
-      transform: translateY(3%);
-    }
-  }
 
-@keyframes topToBotton{
-   
-    from{
-      transform: translatey(-15%);
-    }
-    to{
-      transform: translatey(35%);
-    }
-  }
 
   @media only screen and (max-width: 800px) {
 
     .container-home{
+      width: 100%;
       margin: 2px;
+      text-align: center;
       grid-template-columns: 1fr;
     }
     .img{
@@ -50,12 +33,13 @@
     }
 
     
-.background-box-1{
-  border-radius: 70px;
-}
-.background-box-2{
-  
-  border-radius: 70px;
-}
+    .background-box-1{
+      border-radius: 70px;
+    }
+    .background-box-2{
+      
+      border-radius: 70px;
+    }
 
+    
   }

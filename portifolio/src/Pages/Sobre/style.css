@@ -1,11 +1,11 @@
 .container-sobre{
-    width: 90%;
+    width: 100%;
     margin-top:0%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items:center;
-    gap:10px;
+    /* gap:10px; */
   }
 
   .img-perfil{
@@ -18,11 +18,12 @@
     .container-sobre{
       
       margin-top:20%;
-      margin-right: auto;
+      
 
-      /* align-items:end; */
-      gap: 0px;
-      padding: auto;
+
+      align-items:center;
+      justify-content: center;
+      row-gap: 40px;
     }
 
   }

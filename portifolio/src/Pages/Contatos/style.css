@@ -1,6 +1,55 @@
-.container-habilidades{
+.container-contatos{
     display: grid;
     justify-items: center;
     align-items: center;
+    gap: 50px;
     grid-template-columns: 1fr 1fr;
+}
+
+.card-contatos{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    flex-wrap: nowrap;
+    border-radius: 70px;
+
+    width: auto;
+    border: none;
+    box-shadow: 4px 4px 13px var(--azul-sombra);
+
+    background-color: var(--branco_claro);
+
+    color: var(--preto);
+}
+.contatos {
+    list-style-type: none;
+
+}
+
+.font-blue{
+    color: var(--azul_padrao);
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-contatos{
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+@media only screen and (max-width: 600px) {
+    .card-contatos{
+        padding: 10%;
+        flex-wrap: nowrap;
+        border-radius: 60px;
+    
+        width: 90%;
+        border: none;
+    }
+    .card-contatos li{
+    font-size: 1.2rem;
+    }
+    
 }
