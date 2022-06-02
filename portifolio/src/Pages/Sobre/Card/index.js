@@ -1,11 +1,12 @@
 import './style.css';
+import BagdeVerde from '../../../Componentes/Bagdes/Bagde-verde';
 
-function Card( props ) {
+function CardSobre( props ) {
     
-    return(<div className='card' title={ props.title } content={ props.content }>
-        <div className='container-card'>
+    return(<div className='card-sobre' title={ props.title } content={ props.content }>
+        <div className='container-card-sobre'>
             <span className='bol-amarela'></span>
-            <span className='bagde-verde'></span>
+            <BagdeVerde></BagdeVerde>
         </div>
         <div>
             <h1> { props.title } </h1>
@@ -14,4 +15,4 @@ function Card( props ) {
     </div>)
 }
 
-export default Card;
+export default CardSobre;

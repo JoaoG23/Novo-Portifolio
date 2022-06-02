@@ -3,7 +3,7 @@
   --azul_escuro:#3719df;
   --azul-sombra:#3719df30;
   --azul_padrao:#5233FF;
-  --branco_claro:#f7f6fe;
+  --branco_claro:#fcfcff;
   --branco_padrao:#efedfe;
   --verde_padrao:#19FF94;
   --vermelho_padrao:#F7614A;
@@ -33,7 +33,7 @@ h1{
   background-color: var(--azul_padrao);
 }
 .bg-white{
-  background-color: var(--branco_padrao);
+  background-color: var(--branco_claro);
 }
 .transitionsSoft{
   animation: softchange 1s ease 0s alternate forwards;
@@ -59,7 +59,6 @@ h1{
 
   bottom: 190px;
   left: 40%;
-  /* background-color: var(--verde_padrao); */
   
   width: 70%;
   height: 925px;
@@ -75,7 +74,6 @@ h1{
   
   bottom:10%;
   left: 15%;
-  /* background-color: var(--azul_padrao); */
   
   width:50%;
   height: 500px;
@@ -92,12 +90,42 @@ h1{
   bottom:30%;
   left: 4%;
   
-  width:30%;
+  width:40%;
   height: 300px;
   border-radius: 90px;
   animation: topToBotton 4s ease infinite alternate forwards;
 }
 
+.background-box-4{
+  position: fixed;
+  z-index: -2;
+  
+  border: none;
+  opacity: 0.2;
+  
+  bottom:10%;
+  left: 30%;
+  
+  width:25%;
+  height: 20%;
+  border-radius: 50px;
+  animation: topToBotton 6s ease infinite alternate forwards;
+}
+
+
+.wid-1{
+  width: 100px;
+}
+.wid-2{
+  width: 200px;
+}
+
+.heig-1{
+  height: 100px;
+}
+.heig-2{
+  height: 200px;
+}
 
 
 

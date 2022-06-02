@@ -1,5 +1,5 @@
 
-.card{
+.card-sobre{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
   width: 70%;
 
 } */
-.container-card{
+.container-card-sobre{
   width: 100%;
   display: flex;
   gap: 20px;
@@ -30,15 +30,7 @@
   margin-right: 30px;
 }
 
-.bagde-verde{
-  display: flex;
-  width: 200px;
-  height: 30px;
-  background-color: var(--verde_padrao);
-  border-radius: 20px;
-  box-shadow: 3px 3px 9px var(--azul-sombra);
-  
-}
+
 
 .bol-amarela{
   display: flex;

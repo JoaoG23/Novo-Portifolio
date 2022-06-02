@@ -35,13 +35,13 @@
       transform: translatey(-15%);
     }
     to{
-      transform: translatey(25%);
+      transform: translatey(35%);
     }
   }
 
   @media only screen and (max-width: 800px) {
 
-    .container{
+    .container-home{
       margin: 2px;
       grid-template-columns: 1fr;
     }
