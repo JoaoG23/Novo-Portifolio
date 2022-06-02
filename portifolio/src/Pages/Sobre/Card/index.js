@@ -1,6 +1,6 @@
 import './style.css';
-import BagdeVerde from '../../../Componentes/Bagdes/Bagde-verde';
 
+import BagdeVerde from '../../../Componentes/Bagdes/Bagde-verde';
 function CardSobre( props ) {
     
     return(<div className='card-sobre' title={ props.title } content={ props.content }>

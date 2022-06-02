@@ -25,7 +25,6 @@ h1{
   background-color: var(--amarelo_padrao);
 }
 .bg-green{
-  z-index: -1;
   background-color: var(--verde_padrao);
 }
 .bg-blue{
@@ -39,14 +38,6 @@ h1{
   animation: softchange 1s ease 0s alternate forwards;
 }
 
-.container{
-  gap: 20px;
-    width: 90%;
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    align-items: center;
-}
 
 
 
@@ -147,9 +138,6 @@ h1{
     transform: translatey(35%);
   }
 }
-
-
-
 
 
 @keyframes softchange {

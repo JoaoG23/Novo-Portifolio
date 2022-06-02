@@ -3,7 +3,7 @@ import MiniCard from './MiniCard';
 
 function Projetos() {
     return(
-        <section className='container transitionsSoft'>
+        <section className='container-main-project transitionsSoft'>
            <section>
                <div className='background-box-1 bg-red'></div>
                <div className='background-box-3 bg-yellow'></div>

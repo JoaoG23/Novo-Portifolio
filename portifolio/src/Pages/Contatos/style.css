@@ -1,4 +1,6 @@
 .container-contatos{
+
+    width: 80%;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -35,8 +37,10 @@
 @media only screen and (max-width: 1000px) {
     .container-contatos{
         grid-template-columns: 1fr;
+        row-gap: 50px;
+        gap: 50px;
     }
-
+    
     
 }
 @media only screen and (max-width: 600px) {
@@ -44,12 +48,14 @@
         padding: 10%;
         flex-wrap: nowrap;
         border-radius: 60px;
-    
-        width: 90%;
+        
+        width: 68%;
         border: none;
     }
     .card-contatos li{
-    font-size: 1.2rem;
+        word-wrap:break-word
     }
-    
+    /* .font-email-long{
+        font-size: 1rem;
+    } */
 }
