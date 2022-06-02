@@ -11,17 +11,14 @@ function Projetos() {
            </section>
                 <h1>Alguns Projetos</h1>
             <section className='container-project'>
-                <MiniCard></MiniCard>
-                <MiniCard></MiniCard>
-                <MiniCard></MiniCard>
-                <MiniCard></MiniCard>
-                <MiniCard></MiniCard>
-                <MiniCard></MiniCard>
-                <MiniCard></MiniCard>
-                <MiniCard></MiniCard>
-                <MiniCard></MiniCard>
-                <MiniCard></MiniCard>
-                <MiniCard></MiniCard>
+                <MiniCard imgOne={'./Assets/img/bike.gif'}>Site de Bike</MiniCard>
+                <MiniCard imgOne={'./Assets/img/doceria.gif'}>Site Doceira</MiniCard>
+                <MiniCard imgOne={'./Assets/img/flor.gif'}>Site Floricultura</MiniCard>
+                <MiniCard imgOne={'./Assets/img/joaoaceso.gif'}>Sistema de Controle de acesso</MiniCard>
+                <MiniCard imgOne={'./Assets/img/landpage.png'}>Pagina de Captura</MiniCard>
+                <MiniCard imgOne={'./Assets/img/oldsite.gif'}>Site Intitucional</MiniCard>
+                <MiniCard imgOne={'./Assets/img/GifRegistPeople.gif'}>Sistema de cadastro de pessoas</MiniCard>
+                <MiniCard imgOne={'./Assets/img/CopaChat.gif'}>Chat Corporativo</MiniCard>
             </section>
         </section>)
 }

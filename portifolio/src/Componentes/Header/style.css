@@ -129,7 +129,7 @@ ul{
 }
 
  /* ----- ANIMATIONS ------ */
-  @keyframes flooting {
+  /* @keyframes flooting {
     from{
       
       transform: translateY(0px);
@@ -139,8 +139,8 @@ ul{
       border-bottom: 2px solid var(--verde_padrao);
       transform: translateY(-7px);
     }
-  }
-  @keyframes flooting-soft {
+  } */
+  /* @keyframes flooting-soft {
     from{
       
       transform: translateY(0px);
@@ -170,7 +170,7 @@ ul{
       
       transform: translateX(-500px);
     }
-  }
+  } */
 
 
 

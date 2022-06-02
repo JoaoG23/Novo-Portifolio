@@ -1,13 +1,12 @@
-import React  from 'react'
-
 import './style.css';
 
-function MiniCard() {
+function MiniCard( props ) {
 
     return(
-    <section className='mini-card'>
-        <div className='nano-card'></div>
-    </section>)
+    <figure className='mini-card'>
+        <img className='img-mini-card' src={props.imgOne} alt='img'></img>
+        <figcaptiom className='nano-card'>{ props.children }</figcaptiom>
+    </figure>)
 }
 
 export default MiniCard;

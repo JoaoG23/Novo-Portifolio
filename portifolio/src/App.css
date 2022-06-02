@@ -151,6 +151,42 @@ h1{
   }
 }
 
+
+  @keyframes flooting-soft {
+    from{
+      
+      transform: translateY(0px);
+    }
+    to{
+      color: var(--verde_padrao);
+      border-bottom: 2px solid var(--verde_padrao);
+      transform: translateY(-4px);
+    }
+  }
+  @keyframes rightToLeft {
+    from{
+      opacity: 0;
+      transform: translateX(-500px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  @keyframes leftToRight {
+    from{
+      
+      transform: translateX(0px);
+    }
+    to{
+      
+      transform: translateX(-500px);
+    }
+  }
+
+
+  
+
 @media only screen and (max-width: 800px) {
 
 

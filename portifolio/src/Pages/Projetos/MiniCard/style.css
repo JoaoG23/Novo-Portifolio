@@ -1,27 +1,64 @@
 .mini-card{
-  border-radius: 20px;
+  border-radius: 23px;
   background-color: var(--branco_claro);
   box-shadow: 3px 3px 9px var(--azul-sombra);
-  width: 150px;
-  height: 200px;
-
+  width: 190px;
+  height: 250px;
+  
   display:flex;
-
+  
   justify-content: center;
   align-items: center;
 }
+.img-mini-card{
+  border-radius: 23px;
+  position: absolute;
+  width: 190px;
+  height: 250px;
+  box-sizing: border-box;
+}
 .nano-card{
   
-  border-radius: 12px;
-  background-color: var(--verde_padrao);
-  width: 60px;
-  height: 65px;
-  opacity: 0;
-}
-.nano-card:hover{
+  display: flex;
+  align-items: center;
+  border-radius: 17px;
+  background-color: var(--azul_padrao);
+  width: 80px;
+  height: 85px;
+  z-index: 1;
+  padding: 10px;
+
   
-  transition: 1s ease-in;
-  opacity: 1;
+  
+  font-size: 13px;
+  word-wrap: break-word;
+  color:var(--branco_claro);
+  
+  box-shadow: 2px 2px 2px var(--azul-sombra);
+  text-align: center;
+}
+.mini-card:hover{
+
+animation: topCard 0.3s ease 0s alternate forwards;
+}
+
+
+@keyframes topCard {
+
+  from{
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-30px);
+  }
+  /* from{
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+    background-color: green;
+    z-index: 3;
+  } */
 }
 
 @media only screen and (max-width: 1000px) {
@@ -31,6 +68,8 @@
     width: 150px;
     height: 200px;
   }
+
+  
   
 }
 
@@ -42,6 +81,12 @@
     height: 120px;
     border-radius: 30px;
     
+  }
+
+  .img-mini-card{
+    border-radius: 40px;
+    width: 290px;
+    height: 350px;
   }
   
   .mini-card{

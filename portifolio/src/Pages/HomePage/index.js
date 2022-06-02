@@ -11,7 +11,7 @@ function HomePage() {
             <div className='background-box-1 bg-blue'></div>
             <div className='background-box-2 bg-green'></div>
         </div>
-            <img className='img' src='./Assets/icons/laptopHome.svg'></img>
+            <img className='img-home' src='./Assets/icons/laptopHome.svg' alt='notebook'></img>
     </section>)
 }
 
