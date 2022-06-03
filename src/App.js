@@ -10,17 +10,6 @@ import Contatos from './Pages/Contatos';
 
 function App() {
 
-  // Uma paleativo para redirecionar a pagina quando recarregada
-  useEffect(() => {
-    if (performance.navigation.type === 1) {
-      console.log("reloaded");
-      window.history.back();
-    } else {
-      console.log("Not reloaded");
-      // window.history.back();
-    }
-  })
-
   return (
     <Router>
       <main>

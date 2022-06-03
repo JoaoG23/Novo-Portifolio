@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# Website JGSmall Solutions 📲💻
 
-# Website JGSmall Solutions 📥
-
-## Edições ✏️📑
+## Edições ✍️📑
 
 Alterações   | Data
 :---------: | :------:
@@ -11,29 +9,31 @@ Emissão Inicial | 11/12/2021
 ### Tecnologias Usados 🧑‍💻 
 **_HTML_**
 
-![Alt ou título da imagem](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="drawing" width="70"/>
 
 **_CSS_**
 
-![Alt ou título da imagem](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="drawing" width="70"/> 
 
 **_Javascript_**
 
-
-![Alt ou título da imagem](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="drawing" width="70"/> 
 
 **_Framework Reactjs**
 
-![Alt ou título da imagem](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="drawing" width="70"/> 
+
+
 ### Introdution 
 
-![Alt ou título da imagem](./Assets/site.gif)
 
-![Alt ou título da imagem](./Assets/mobilesite.gif)
+![Alt ou título da imagem](./Assets/img/site.gif)
 
+<img align='center' src="./Assets/img/mobilesite.gif" alt="drawing" width="200"/> 
 
 I'm create my new website for business and there is my all projects along the time.
-It was first experience with Reactjs and you guess! It's too bad experience🤦‍♂️, but i will be to get used framework.
+
+It was first experience with Reactjs and you guess! It's too bad experience🤦‍♂️ ,but i will be to get used framework.
 
 Well, the link is below.😁
 https://jgsmall-solutions.netlify.app/
