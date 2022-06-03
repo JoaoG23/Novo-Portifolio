@@ -1,19 +1,11 @@
-import React , { useEffect, useState } from 'react';
+import React , { useState } from 'react';
 import List from "./list"
-import { useLocation } from 'react-router-dom';
 
 import './style.css';
 
 function Header() {
     const [ show, setShow ] = useState(false);
 
-    const location = useLocation();
-
-
-    
-    function returnHomePage() {
-        console.log(location.pathname);
-    }
  
     function hideSidebar() {
         setShow(false);

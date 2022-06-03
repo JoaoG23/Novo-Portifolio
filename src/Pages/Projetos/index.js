@@ -12,7 +12,7 @@ function Projetos() {
                 <MiniCard imgOne={'./Assets/img/bike.gif'} linkOne={'https://prototypebikesgoods.netlify.app/'}>Loja de Bicicletas</MiniCard>
                 <MiniCard imgOne={'./Assets/img/doceria.gif'} linkOne={'https://protypeconfeitariajg.netlify.app/'}>Uma Confeitaria</MiniCard>
                 <MiniCard imgOne={'./Assets/img/flor.gif'} linkOne={'https://protypefloriculturajg.netlify.app/'}>Uma floricultura</MiniCard>
-                <MiniCard imgOne={'./Assets/img/landpage.png'}  linkOne={'https://jgpagina-de-captura.netlify.app'}>Página de Captura</MiniCard>
+                <MiniCard imgOne={'./Assets/img/landpage.png'} linkOne={'https://jgpagina-de-captura.netlify.app'}>Página de Captura</MiniCard>
                 <MiniCard imgOne={'./Assets/img/oldsite.gif'} linkOne={'https://jgportifolio.netlify.app/'}>Site Institucional</MiniCard>
                 <MiniCard imgOne={'./Assets/img/catalogo.gif'} linkOne={'https://protypelojademoveisjg.netlify.app'}>Loja de Móveis</MiniCard>
                 <MiniCard imgOne={'./Assets/img/CopaChat.gif'}>Chat Corporativo</MiniCard>
