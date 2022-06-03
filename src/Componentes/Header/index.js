@@ -1,11 +1,20 @@
-import React , { useState } from 'react'
+import React , { useEffect, useState } from 'react';
 import List from "./list"
+import { useLocation } from 'react-router-dom';
 
 import './style.css';
 
 function Header() {
     const [ show, setShow ] = useState(false);
 
+    const location = useLocation();
+
+
+    
+    function returnHomePage() {
+        console.log(location.pathname);
+    }
+ 
     function hideSidebar() {
         setShow(false);
     }
@@ -13,6 +22,7 @@ function Header() {
     function showSidebar() {
         setShow(true);
     }
+
     function exitWhenChangePage(elem) {
         let isClicked = elem.target;
         console.log(isClicked)
@@ -23,7 +33,7 @@ function Header() {
     }
  
     return(
-    <header className='header'  >
+    <header className='header' >
         <img src='./Assets/icons/minilogo.svg'></img>
             <button className='btn-mobile' onClick={showSidebar} >☰</button>
             <List styleNew='list' ></List>

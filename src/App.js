@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './Componentes/Header';
@@ -9,6 +9,18 @@ import Habilidades from './Pages/Habilidades';
 import Contatos from './Pages/Contatos';
 
 function App() {
+
+  // Uma paleativo para redirecionar a pagina quando recarregada
+  useEffect(() => {
+    if (performance.navigation.type === 1) {
+      console.log("reloaded");
+      window.history.back();
+    } else {
+      console.log("Not reloaded");
+      // window.history.back();
+    }
+  })
+
   return (
     <Router>
       <main>
