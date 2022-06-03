@@ -1,6 +1,4 @@
 import './style.css';
-import React from 'react';
-import { Link } from "react-router-dom";
 
 
 function MiniCard(props) {
@@ -8,7 +6,7 @@ function MiniCard(props) {
     return (
         <figure className='mini-card'>
             <img className='img-mini-card' src={props.imgOne} alt='img'></img>
-            <a className='mask' href={props.linkOne}>
+            <a className='mask' href={props.linkOne} target='_blank'>
                 <div className='nano-card'>
                     {props.children}
                 </div>
