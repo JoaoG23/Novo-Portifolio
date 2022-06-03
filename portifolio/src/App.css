@@ -3,6 +3,8 @@
   --azul_escuro:#3719df;
   --azul-sombra:#3719df30;
   --azul_padrao:#5233FF;
+  --azul-gradiente:linear-gradient(#3719df,#5d41fb);
+
   --branco_claro:#fcfcff;
   --branco_padrao:#efedfe;
   --verde_padrao:#19FF94;
@@ -19,6 +21,7 @@ h1{
   margin: 0px;
 }
 .bg-red{
+
   background-color: var(--vermelho_padrao);
 }
 .bg-yellow{

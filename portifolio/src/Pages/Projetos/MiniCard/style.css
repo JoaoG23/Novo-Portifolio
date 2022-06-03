@@ -12,7 +12,7 @@
   align-items: center;
 }
 .img-mini-card{
-  border-radius: 23px;
+  border-radius: 17px;
   position: absolute;
   width: 190px;
   height: 250px;
@@ -23,20 +23,23 @@
   display: flex;
   align-items: center;
   border-radius: 17px;
-  background-color: var(--verde_padrao);
+  background-image: var(--azul-gradiente);
   width: 80px;
   height: 85px;
   z-index: 1;
   padding: 10px;
 
   
-  
-  font-size: 13px;
+  font-weight: bold;
+  font-size: 12px;
   word-wrap: break-word;
   color:var(--branco_claro);
   
   box-shadow: 2px 2px 2px var(--azul-sombra);
   text-align: center;
+}
+.nano-card a {
+  text-decoration: none;
 }
 .mini-card:hover{
 
