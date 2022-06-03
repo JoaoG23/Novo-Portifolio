@@ -1,0 +1,45 @@
+
+.container-home{
+    
+  width: 80%;
+    margin:0px 0px 0px 100px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr 4fr;
+}
+
+.font-large{
+    font-size: 2.5rem;
+}
+
+.img-home{
+  position: relative;
+    z-index: -1;
+    animation: floating 1s ease-out infinite alternate forwards;
+    
+  }
+
+
+  @media only screen and (max-width: 800px) {
+
+    .container-home{
+      width: 100%;
+      margin: 2px;
+      text-align: center;
+      grid-template-columns: 1fr;
+    }
+    .img-home{
+      width: 270px;
+    }
+
+    
+    .background-box-1{
+      border-radius: 70px;
+    }
+    .background-box-2{
+      
+      border-radius: 70px;
+    }
+
+    
+  }

@@ -1,0 +1,25 @@
+.cardSmall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 150px;
+
+    border: none;
+    border-radius: 27px;
+    box-shadow: 2px 2px 9px var(--azul-sombra);
+
+    background-color: var(--branco_claro);
+
+    font-size: 1.1rem;
+    color: var(--preto);
+}
+.cardSmall p{
+    margin: 20px 0px 0px 0px;
+}
+
+.imgCardSmall{
+    width: 70px;
+}

@@ -1,0 +1,71 @@
+.container-habilidades{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+}
+.title-habilidades{
+    color: var(--azul_padrao);
+
+    /* margin: auto; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.list-habilidades{
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+
+}
+.learned{
+    gap:10px;
+    display: grid;
+    grid-template-columns:160px 160px 160px 160px;
+}
+.unlearned{
+    gap:10px;
+    display: grid;
+    grid-template-columns:160px 160px 160px ;
+}
+
+.font-small{
+    font-size: 4px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+
+    .container-habilidades{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 1fr ;
+        row-gap:20px;
+    }
+    .learned{
+        gap:10px;
+        display: grid;
+        grid-template-columns:auto auto auto;
+    }
+    .unlearned{
+        gap:10px;
+        display: grid;
+        grid-template-columns:auto auto auto ;
+    }
+} 
+@media only screen and (max-width: 600px) {
+    .learned{
+        gap:10px;
+        display: grid;
+        grid-template-columns:auto auto;
+    }
+    .unlearned{
+        gap:10px;
+        display: grid;
+        grid-template-columns:auto auto ;
+    }
+} 
