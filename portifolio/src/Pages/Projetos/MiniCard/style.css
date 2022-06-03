@@ -1,9 +1,10 @@
 .mini-card{
-  border-radius: 23px;
+  border-radius: 17px;
   background-color: var(--branco_claro);
   box-shadow: 3px 3px 9px var(--azul-sombra);
   width: 190px;
   height: 250px;
+  margin: 0px;
   
   display:flex;
   
@@ -22,7 +23,7 @@
   display: flex;
   align-items: center;
   border-radius: 17px;
-  background-color: var(--azul_padrao);
+  background-color: var(--verde_padrao);
   width: 80px;
   height: 85px;
   z-index: 1;
@@ -39,26 +40,39 @@
 }
 .mini-card:hover{
 
-animation: topCard 0.3s ease 0s alternate forwards;
+animation: float-card-project 0.6s ease 0s alternate forwards;
 }
 
 
-@keyframes topCard {
+.mask{
+  background-color: var(--branco_claro);
+  position: absolute;
+  display: flex;
+  width: 190px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  box-sizing: border-box;
+  border-radius: 23px;
+}
 
+
+.mask:hover{
+  transition: 0.7s;
+  opacity: 1;
+  background-color: rgba(0, 15, 92, 0.595);
+}
+
+
+@keyframes float-card-project {
   from{
-    transform: translateY(0);
+    
+    transform: translateY(0px);
   }
-  to {
-    transform: translateY(-30px);
+  to{
+    transform: translateY(-10px);
   }
-  /* from{
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(180deg);
-    background-color: green;
-    z-index: 3;
-  } */
 }
 
 @media only screen and (max-width: 1000px) {
@@ -68,13 +82,18 @@ animation: topCard 0.3s ease 0s alternate forwards;
     width: 150px;
     height: 200px;
   }
+  .mask{
+    
+    width: 190px;
+    height: 250px;
+  }
 
   
   
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .nano-card{
     
     width: 100px;
@@ -90,6 +109,13 @@ animation: topCard 0.3s ease 0s alternate forwards;
   }
   
   .mini-card{
+    
+    border-radius: 40px;
+    width: 290px;
+    height: 350px;
+
+  }
+  .mask{
     
     border-radius: 40px;
     width: 290px;
