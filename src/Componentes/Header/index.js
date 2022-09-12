@@ -23,7 +23,7 @@ function Header() {
         }
 
     }
- 
+
     return(
     <header className='header' >
         <img src='./Assets/icons/minilogo.svg'></img>

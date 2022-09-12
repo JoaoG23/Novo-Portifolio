@@ -22,10 +22,13 @@
   
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
   border-radius: 17px;
   background-image: var(--azul-gradiente);
   width: 80px;
-  height: 85px;
+  height: 15em;
   z-index: 1;
   padding: 10px;
 
