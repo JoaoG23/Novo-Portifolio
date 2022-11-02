@@ -3,11 +3,15 @@
   width: 90%;
   grid-template-columns: auto;
   display: grid;
-  
   align-items: center;
 }
-.container-main-project h1 {
-  margin: 1%;
+.container-main-project h1  {
+  margin: auto;
+  word-wrap:break-word;
+
+}
+.container-main-project h2  {
+  margin: auto;
   word-wrap:break-word;
 
 }
