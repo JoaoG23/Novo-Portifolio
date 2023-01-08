@@ -7,8 +7,6 @@ import Sobre from './Pages/Sobre';
 import Projetos from './Pages/Projetos';
 import Habilidades from './Pages/Habilidades';
 import Contatos from './Pages/Contatos';
-import SobreSites from './Pages/SobreSites';
-import SobreSistemas from './Pages/SobreSistemas';
 
 function App() {
 
@@ -20,8 +18,6 @@ function App() {
           <Route path='/' element={<HomePage />}></Route>
           <Route path='/sobre' element={<Sobre />}></Route>
           <Route path='/projetos' element={<Projetos />}></Route>
-          <Route path='/sites/:id' element={<SobreSites />}></Route>
-          <Route path='/sistemas/:id' element={<SobreSistemas />}></Route>
           <Route path='/habilidade' element={<Habilidades />}></Route>
           <Route path='/contatos' element={<Contatos />}></Route>
           <Route path='*' element={<HomePage />}></Route>

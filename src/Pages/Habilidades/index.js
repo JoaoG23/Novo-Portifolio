@@ -24,11 +24,10 @@ function Habilidades() {
                     <CardHab source='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' title='MongoDB'></CardHab>
                     <CardHab source='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' title='PostgresSQL'></CardHab>
                     <CardHab source='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' title='React'></CardHab>
-                    <CardHab source='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' title='Redux'></CardHab>
-                    <CardHab source='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' title='TypeScript'></CardHab>
                 </section>
                 <BagdeVerde>Em aprendizado</BagdeVerde>
                 <section className='unlearned'>
+                    <CardHab source='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' title='TypeScript'></CardHab>
                     <CardHab source='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' title='Java'></CardHab>
                 </section>
             </div>
